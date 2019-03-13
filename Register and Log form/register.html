@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>
+	<form class="reg" method="POST" action="reg.php">
+	<h1>Enter the system</h1><br>
+	<p>It is necessary to login in Your account on order to sign in for a course.</p>
+	<h2>ARE YOU NEW?<span> REGISTER</span></h2>
+	<input type="text" name="user" required="" id="user" placeholder="User name"><br>
+	<input type="email" name="emalil" required="" id="email" placeholder="Email"><br>
+	<input type="password" name="password" required="" id="pass" placeholder="Password"><br>
+	<input type="password" name="password" required="" id="cofpass" placeholder="Confirm Password"><br>
+	<input type="submit" name="submit" id="btn" value="Register">
+</form>
+	
+	<form class="box" method="POST" method="reg.php">
+		<h1>Alredy a student? Login</h1>
+		<input type="text" name="user" placeholder="User Name"><br>
+		<input type="password" name="pass" placeholder="Password"><br>
+		<input type="checkbox" name="rem" id="rem">
+		<label for="rem">Remember me</label>
+		<input type="submit" name="sub" value="Login">
+		<a href="forgot pss">Forgot password</a>
+
+	</form>
+
+
+
+
+</body>
+</html>
