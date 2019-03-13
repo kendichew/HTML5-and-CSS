@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	thead tr input{
+		width: 450px;
+			height: 50px;
+			margin: 2px;
+			font-size: 25px;
+	}
+		td {
+			background: grey;
+		}
+		button {
+			width: 120px;
+			height: 120px;
+			font-size: 25px;
+		}
+		th input{
+			width: 200;
+		}
+
+	</style>
+	<style>
+		.white {
+			background: white; 
+		}
+	</style>
+	<script type="text/javascript">
+	   function ChangeAnswerValue(answerValue){
+	      document.getElementById("answer").value += answerValue;
+	   };
+
+	   function Calculate(){
+	   	document.getElementById("answer").value = eval(document.getElementById("answer").value);
+	   };
+	   function clean(){
+	   	 	document.getElementById("answer").value;
+	   }
+	</script>
+</head>
+<body>
+	<table border="1" name="calculator">
+		<thead>
+			<tr>
+				<th width="100px" height="100px" colspan="4" class="white">
+					 <input id="answer" type="text" width="300px" height="300px"/>
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					<button onclick="ChangeAnswerValue('1')"/>1</button>
+				</td>
+				<td>
+					<button onclick="ChangeAnswerValue('2')"/>2</button>
+				</td>
+				<td>
+					<button onclick="ChangeAnswerValue('3')" />3</button>
+				</td>
+				<td>
+					<button onclick="ChangeAnswerValue('+')" />+</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button onclick="ChangeAnswerValue('4')" />4</button>
+				</td>
+				<td>
+					<button onclick="ChangeAnswerValue('5')" />5</button>
+				</td>
+				<td>
+					<button onclick="ChangeAnswerValue('6')" />6</button>
+				</td>
+				<td>
+					<button onclick="ChangeAnswerValue('-')" />-</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button onclick="ChangeAnswerValue('7')" />7</button>
+				</td>
+				<td>
+					<button onclick="ChangeAnswerValue('8')" />8</button>
+				</td>
+				<td>
+					<button onclick="ChangeAnswerValue('9')" />9</button>
+				</td>
+				<td>
+					<button onclick="ChangeAnswerValue('*')" />*</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button onclick="clean()" />c</button>
+				</td>
+				<td>
+					<button onclick="ChangeAnswerValue('0')" />0</button>
+				</td>
+				<td>
+					<button onclick="Calculate()"/>=</button>
+				</td>
+				<td>
+					<button onclick="ChangeAnswerValue('/')" />/</button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
