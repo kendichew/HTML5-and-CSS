@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#logo{
+	width: 300px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+#icon{
+	width: 30px;
+}
+body p{
+	padding-top: 20px;
+	margin-left: 20px;
+}
+p, input, img {
+    vertical-align: text-bottom;
+}
