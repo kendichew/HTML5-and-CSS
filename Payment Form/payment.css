@@ -1,0 +1,12 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h2{
+	color: red;
+}
+#fname{
+background: url(index.png) no-repeat;
+background-size:10%;	
+padding-left: 10px;
+}

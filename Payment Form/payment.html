@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Order</title>
+	<link rel="stylesheet" type="text/css" href="payment.css">
+</head>
+<body>
+	<h1>Payment Form</h1><br>
+	<h2>All fields are REQUIRED</h2><br>
+	<form method="POST" action="order.php"></form>
+	<label for="name">First Name</label>
+	<input type="text" name="First Name" id="fname" ><br>
+	<label for="name">Last Name</label>
+	<input type="text" name="Last Name" id="lname"><br>
+	<label for="name">Street Address</label>
+	<input type="text" name="Street Address" id="stradr"><br>
+	<label for="name">City</label>
+	<input type="text" name="City" id="City"><br>
+	<label for="name">State</label>
+	<input type="text" name="State" id="State"><br>
+	<label for="name">Zip/Post Code</label>
+	<input type="text" name="Zip/Post Code" id="zip"><br>
+	<label>Credit Card Type</label><br>
+	<input type="radio" name="Visa"> <label for="Master Card">Master Card</label><br>
+	<input type="radio" name="Visa"><label for="Visa">Visa</label><br>
+	<input type="radio" name="Visa"><label for="Discover">Discover</label><br>
+	<label for="Credit Card Number">Credit Card Number</label>
+	<input type="Credit Card Number" name=""><br>
+	<label>Expiration Date</label>
+	<select name="Months">
+		<option value="Jan">January</option>
+		<option value="Feb">February</option>
+		<option value="Mar">March</option>
+	</select>
+	<select name="Year">
+		<option value="19">2019</option>
+		<option value="20">2020</option>
+		<option value="21">2021</option>
+		
+	</select><br>
+	<label>Special Notes</label><br>
+	<textarea name="notes" id="notes" cols="30" rows="10" placeholder="enter notes here..."></textarea><br>
+	<input type="submit" name="submit" value="Submit Payment">
+
+</body>
+</html>
