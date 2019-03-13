@@ -1,0 +1,18 @@
+#nav-color{
+	background: green;
+}
+#nav-color a{
+	margin-left: 50px;
+}
+#main-footer p{
+ 	margin-top: 50px;
+ 	font-weight: bold;
+ 	font-size: 16px;
+ 	margin-left: 60px;
+}
+#aside{
+	margin-top: 30px;
+}
+#hdr{
+	margin-top: 30px;
+}
