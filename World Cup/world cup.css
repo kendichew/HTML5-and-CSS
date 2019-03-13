@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background:#008000;
+
+}
+html{
+    font-family: "Segoe UI", "Helvetica", "Tahoma", San-serif;
+    font-size: 20px;
+}
+{
+    background-color: #fff;
+}
+thead tr td{
+    background: #FFFF00;
+    text-align: center;
+    
+}
+tbody tr td{
+    background: #fff;
+}
+
+body{
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 1000px;
+}
+
+table, td {
+    border-spacing: 0;
+    margin: 0;
+}
+table thead{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+table tbody{
+    font-size: 20px;
+    margin: 20px;
+}
+
+
+button{
+    font-size: 11px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background: #FF0000;
+    color: white;
+}
+
+
+
+/*borders*/
+td{
+    border: 1px solid #000;
+    padding: 3px;
+    border-radius: 3px;
+
+}
+/*colors*/
+tbody tr:nth-of-type(even) td{
+    background: #A9A9A9;
+}
+/*left country flags*/
+
+.br, .es, .it, .ar, .d {
+    padding-right: 20px;
+    position: relative;
+}
+
+.br:after,.es:after, .it:after, .ar:after, .d:after {
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    content: "";
+}
+
+.br:after{
+    background: url("brazil-flag.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    text-align: right;
+    width: 40px;
+    height: 40px;
+}
+
+.es:after{
+   background: url("spain-flag.png");
+   background-position: right;
+   background-repeat: no-repeat;
+   width: 40px;
+   height: 30px;
+}
+
+.it:after{
+    background: url("italy-flag.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 30px;
+}
+
+.ar:after{
+	background: url("argentina-flag.png");
+	background-position: right;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 30px;
+}
+ .d:after{
+    background: url("germany-flag.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+/*right country flags*/
+
+.mx, .nl, .en, .ba, .pr{
+    padding-left: 40px;
+    position: relative;
+}
+.mx:before, .nl:before, .en:before, .ba:before, .pr:before{
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    content: "";
+}
+.mx:before{
+    background: url("mexico-flag.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    text-align: right;
+    width: 40px;
+    height: 40px;
+    margin-right: 140px;
+    margin-top: -5px;
+}
+.nl:before{
+    background: url("netherlands-flag.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    text-align: right;
+    width: 40px;
+    height: 40px;
+    margin-right: 140px;
+    margin-top: -5px;
+}
+.en:before{
+    background: url("england-flag.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    text-align: right;
+    width: 40px;
+    height: 40px;
+    margin-right: 140px;
+    margin-top: -5px;
+}
+.ba:before{
+    background: url("bosnia-flag.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    text-align: right;
+    width: 40px;
+    height: 40px;
+    margin-right: 140px;
+    margin-top: -5px;
+}
+.pr:before{
+    background: url("portugal-flag.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    text-align: right;
+    width: 40px;
+    height: 40px;
+    margin-right: 140px;
+    margin-top: -5px;
+}
+
+ 
+
+
+   
