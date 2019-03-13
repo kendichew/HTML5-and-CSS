@@ -1,0 +1,56 @@
+form {
+    background-color: #FFC0CB;
+    width: 360px;
+    height: 300px;
+}
+
+	form header {
+        font-style: italic;
+        text-transform: uppercase;
+        text-align: center;
+		margin-bottom: -25px;
+    }
+    form section {
+		width: 49%;
+		float: left;
+		display: inline-block;
+		margin-left: 3px;
+	}
+	form label, p {
+        font-size: 70%;
+        font-style: italic;
+		margin-left: 3px;
+    }
+
+#from {
+	margin-bottom: 16px;
+}
+#directs-checkbox {
+	margin-top: -1px;
+	margin-bottom: -3px;
+}
+#clas {
+	height: 22px;
+	width: 95%;
+}
+
+#search {
+	margin-top: 5px;
+	height: 26px;
+	width: 95%;
+}
+.time input {
+    width: 43%;
+}
+
+#three-cols {
+	width: 30%
+
+	
+}
+	#three-cols input {
+		width: 75%
+}
+#departures{
+	margin-top: 5px;
+}
