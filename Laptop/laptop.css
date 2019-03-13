@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper {
+    margin: 0 auto;
+    margin-top: 10px;
+    max-width: 910px;
+    font-family: tahoma;
+}
+section {
+    float: left;
+    width: 75%;
+    color: #2C425A;
+}
+button {
+    width: 32%;
+    height: 260px;
+    padding: 0;
+    border: 1px solid #D9EEFA;
+    border-radius: 5px;
+    background-color: white;
+    color: #2C425A;
+    font-size: 120%;
+    text-align: center;
+    border-radius: 5px;
+}
+    button:hover {
+        cursor: pointer;
+        background-color: #A1A5A6;
+    }
+    button .title {
+        font-weight: bold;
+    }
+    button .specs {
+        display: inline-block;
+        text-align: left;
+        font-style: oblique;
+        margin-left: 15px;
+    }
+    button .prize {
+        color: white;
+        background-color: #2C425A;
+        border-top-left-radius: 10px;
+        display: block;
+        height: 40px;
+        width: 100px;
+        float: right;
+        line-height: 40px;
+        margin-top: 30px;
+    }
+    
+
+aside {
+    position: absolute;
+    display: inline-block;
+    width: 15%;
+    padding: 10px;
+    color: #2C425A;
+    background-color: #C1E9F9;
+    border: solid 1px #A9DCF1;
+    margin-top: 20px;
+
+}
+    aside p {
+       text-align: center;
+    }
+    aside div {
+        
+    }
+    aside input {
+        width: 99%;
+    }
+    aside .max {
+        float: right;
+}
