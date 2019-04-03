@@ -1,1 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bella site</title>
+	<link rel="stylesheet" type="text/css" href="fonts/lobster.css">
+	<link rel="stylesheet" type="text/css" href="bella.css">
+	<!-- Place somewhere in the <head> of your document -->
+<link rel="stylesheet" href="flexslider.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="jquery.flexslider.js"></script>
+<!-- Place in the <head>, after the three links -->
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div id="wrapper">
+		<header id="main-header">
+			<nav id="top-nav">
+				<ul>
+					<li>
+						<a href="#">Начало</a>
+					</li>
+					<li>
+						<a href="#">Карта на сайта</a>
+					</li>
+					<li>
+						<a href="#">English</a>
+					</li>
+				</ul>
+			</nav>
+			<div id="logo">
+				<img src="logo.png" alt="logo">
+			</div>
+			<nav id="main-nav">
+				<ul>
+					<li>
+						<a href="#">Търговски марки</a>
+					</li>
+					<li>
+						<a href="#">За Белла</a>
+					</li>
+					<li>
+						<a href="#">Новини</a>
+					</li>
+					<li>
+						<a href="#">Кариери</a>
+					</li>
+					<li>
+						<a href="#">Блог</a>
+					</li>
+					<li>
+						<a href="#">Рецепти</a>
+					</li>
+					<li>
+						<a href="#">Контакти</a>
+					</li>
+				</ul>
+			</nav>
+			<div id="nav-shadow"></div>
+			</header>
 
+						
+<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <div class="colum">
+      	<img src="leki.png" id="lk">
+      	<img src="vsichki.jpg" id="lk">
+      </div> 
+      <div class="colum">
+      	<img src="child.png" id="ch">
+      </div> 
+      <div class="colum" id="txt">
+      	<span>кООО!лко вкусно</span><p>грижа и внимание</p><p id="fml"> за цялото семейство</p>
+      	<ul>
+      		<li>
+      			<a href="#">за продукта <img src="symbol.png"></a>
+      			<a href="#">видео клип <img src="symbol.png"></a>
+      			<a href="#">рецепти <img src="symbol.png"></a>
+      		</li>
+      	</ul>
+      </div>
+    </li>
+   
+  </ul>
+</div>
+	<img src="border.png" id="brd">
+	<div>
+		<div class="aboutus">
+	 <h2>За нас</h2>
+	</div>
+	<section class="sct">
+		<article>
+			<p><span>"Белла България"</span>е най-големият производител на хранителни продукти в страната. Създава, развива и предлага иновативни продукти в различни ценови сегменти, които отговарят на очакванията на потребителите за постоянно високо качество и разумни цени. Това се дължи на високото качество на продукцията, добре развитата дистрибуторска мрежа и гъвкавата и иновативна бизнес стратегия.</p><br>
+			<p>"Ние сме отдадени на потребителите"</p><br>
+			<p>Стартирала дейността си през 1992 г., днес компанията притежава портфолио от 
+			над 200 продукта.Тези марки включват „Перелик”, „Сачи”, LEKI, „Белла”, Tommi, „Флора” и др.</p><br>
+			<div>
+			<b><span>Разгледайте нашите марки:</span></b>
+			<select name="links" onchange="window.location.href=this.value;" id="marka">
+				<option disabled selected >изберете вид</option>
+				<option value="bellainner.html">LEKI</option>
+				<option value="#">BELLA</option>
+				<option value="#">ФАМИЛИЯ</option>
+				<option value="#">САЧИ</option>
+				<option value="#">ПерелиК</option>
+				<option value="#">Tommi</option>
+				<option value="#">НАРОДЕН</option>
+				<option value="#">Солалис</option>
+				<option value="#">Flora</option>
+				<option value="#">ТРАКИЙСКИ КОРИ</option>
+			</select>
+			</div>
+		</article>
+	</section>
+	</div>
+	<div class="bnd">
+		<section class="brands">
+			<article>
+				<img src="bellaa.png">
+				<img src="lekii.png">
+				<img src="familia.png"><br>
+				<img src="sachi.png">
+				<img src="perelik.png">
+				<img src="tommi.png">
+				<img src="naroden.png">
+				<img src="solaris.png">
+				<img src="flora.png"><br>
+				<img src="kori.png" >
+			</article>
+		</section>
+	</div>
+		<div class="news">
+		 <section class="left">
+		 	<h2>Новини</h2>
+			<article>
+				<div class="meta">
+						<time>(21.10.2011)</time>
+					</div>
+					<figure>
+						<img src="newslogo.png" alt="logo">
+					</figure>
+					<h3><span>"Белла България” – инвеститор на годината</span></h3>
+					<a href="#">Областния съвет за развитие на Ямбол обяви „Белла България” за „Инвеститор на годината”.  Членовете на съвета, в състава... </a>
+			</article>
+			<article>
+				<div class="meta">
+						<time>(21.10.2011)</time>
+					</div>
+					<figure>
+						<img src="newslogo2.png" alt="logo">
+					</figure>
+					<h3><span>"Белла България” се включи в проект за...</span></h3>
+					<a href="#">Всеки бранш да си има точно дефинирани изисквания за всяка ключова позиция, съобразени със спецификата му... </a>
+			</article>
+			<article>
+				<div class="meta">
+						<time>(21.10.2011)</time>
+					</div>
+					<figure>
+						<img src="newslogo3.png" alt="logo">
+					</figure>
+					<h3><span>"Белла България” с две награди от „Форбс”</span></h3>
+					<a href="#">Специалната награда за развитие на успешни брандове и място в топ три в категорията „Клиентска политика” получи...  </a>
+			</article>
+		</section>
+	</div>
+		<div class="rcpt">
+		<h2>Рецeпти</h2> 
+		<section class="right">
+			<article>
+					<figure>
+						<img src="pizza.png" alt="logo">
+					</figure>
+					<h3><span>Пица Рататуй</span></h3>
+					<a href="#">Почистете чушките от семките и ги нарежете на ленти, тиквичката - на кръгчета, а патладжана и доматите - на кубчета. Отцедете доматите от сока...</a><br>
+					<img src="clock.png" alt="clock"> <p>45 мин.</p>
+			</article>
+			<article>
+					<figure>
+						<img src="shunka.png" alt="logo">
+					</figure>
+					<h3><span>Пражка шунка с чушки и сирене</span></h3>
+					<a href="#">Обелете чушките, почистете ги от семките и ги нарежете на ивички. Пригответе марината от оцета, зехтина, ситно нарязаната скилидка чесън, сол и пипер на вкус...</a><br>
+					<img src="clock.png" alt="clock" > <p>30мин.</p>
+			</article>
+		</section>
+		</div>
+		<div class="other">
+			<section>
+				<article>
+					<img src="biuletin.png" alt="biuletin">
+					<h3>Бюлетин<a href="#"><img src="redsymbol.png"></a></h3>
+					<p>Запишете се за</p><p> нашият бюлетин</p>
+				</article>
+				<article>
+					<img src="eko.png" alt="eko">
+					<h3>Еко грижа<a href="#"><img src="redsymbol.png"></a></h3>
+					<p>Полагаме специялни грижи</p><p> за природата</p>
+				</article>
+				<article>
+					<img src="karieri.png" alt="karieri">
+					<h3>Кариери<a href="#"><img src="redsymbol.png"></a></h3>
+					<p>Вижте свободните</p><p> позиции в компанията</p>
+				</article>
+			</section>
+			
+		</div>
+
+		<footer class="main-footer">
+			<img src="udovolstvie.png" alt="Храната е удоволствие">
+			<img src="border.png" alt="border" id="brdr">
+			<ul>
+				<li>
+					<a href="#">&#9400;2012 Белла България</a>
+				</li>
+				<li>
+					<a href="#">Контакт</a>
+				</li>
+				<li>
+					<a href="#">Общи условия</a>
+				</li>
+				<li>
+					<a href="#">За сайта</a>
+				</li>
+			</ul>
+			<span>
+			<p>Сайт от:<a href="#">Studio X</a></p>
+			</span>
+		</footer>
+		<footer class="ovr">
+			<span>Накрая, но не по важност:</span>
+		</footer>
+</body>
+</html>
