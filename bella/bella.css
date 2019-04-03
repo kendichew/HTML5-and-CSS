@@ -1,0 +1,287 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url('bg.jpg');
+}
+h2{
+	font-family: lobster;
+	color: red;
+	font-size: 30px;
+}
+#wrapper{
+	width: 980px;
+	margin: 0 auto;
+
+}
+#top-nav{
+	text-align: right;
+}
+#top-nav ul li{
+	display: inline-block;
+	background: url('dot.png') no-repeat 2px;
+	padding-left: 14px;
+	margin-left: 8px;
+}
+#logo{
+	margin: 0 auto;
+	width: 368px;
+	
+}
+#top-nav ul li a{
+	color: #6a6a6a;
+	text-decoration: none;
+}
+#top-nav ul li:first-child{
+	background: none;
+}
+#main-nav ul{
+	background: url('nav-bg.jpg') repeat-x;
+	border-radius: 20px;
+	height: 39px;
+	font-family: sans-serif;
+	letter-spacing: 3px;
+}
+#main-nav ul li{
+	display: inline-block;
+	margin-left: 20px;
+	line-height: 36px;
+	background: url('nav-border.jpg') no-repeat top right;
+	padding-right: 19px;
+}
+#main-nav ul li:last-child{
+	background: none;
+}
+#main-nav ul li a{
+	color: #fff;
+	text-decoration: none;
+
+}
+#nav-shadow{
+	width: 978px;
+	height: 21px;
+	background:url('nav-shadow.png') no-repeat; 
+}
+.flexslider{
+	background: url(bg.png) no-repeat bottom;
+}
+#brd{
+	position: relative;
+	top: -97px;
+}
+.flexslider .slides img {
+   display: inline-block;
+}
+.flexslider span{
+	color: red;
+	font-family: lobster;
+	font-size: 40px;
+}
+#fml{
+	text-align: right;
+}
+.flexslider p{
+	font-family: lobster;
+	font-size: 30px;
+
+}
+.flexslider ul li{
+	list-style-type: none;
+}
+.flexslider ul li a{
+	font-family: lobster;
+	color: #848484;
+	text-decoration: none;
+	margin-right: 15px;
+	font-size: 13px;
+	display: inline-block;
+}
+.colum{
+	display: inline-block;
+	width: 30%;
+}
+#lk{
+	position: relative;
+	top: -154px;
+}
+#ch{
+	position: relative;
+	top:-21px;
+}
+#txt{
+
+	position: relative;
+	top:-140px;
+	color: #848484;
+	right: -75px;
+}
+.sct{
+	float: left;
+	width: 55%;
+	background: #fff;
+	border-radius: 8px;
+	padding: 10px;
+}
+.sct span{
+	color: red;
+	
+}
+.sct p{
+	color: #848484;
+}
+#marka{
+	width: 240px;
+	border-radius: 10px;
+	padding: 5px;
+}
+.brands{
+	float: left;
+	width: 35%;
+	height: 282px;
+	background: #fff;
+	border-radius: 8px;
+	margin-left: 5px;
+}
+.brands article img{
+	background-repeat: no-repeat;
+	padding: 6px;
+    display: inline-block;
+    margin-left: 12px;
+
+}
+.brands article img:last-child{
+	margin:auto 50px;
+
+}
+.news{
+	
+}
+.left h2{
+	float: left;
+	position: relative;
+	left: -554px;
+}
+
+
+.left article{
+	float: left;
+	background: #fff;
+	width: 48%;
+	margin-top: 20px;
+	border-radius: 8px;
+}
+.left h3{
+	color: red;
+	font-size: 13px;
+}
+.left a{
+	color: #848484;
+	text-decoration: none;
+	font-size: 12px;
+
+}
+.left article {
+	padding: 10px;
+	margin:2px;
+}
+.rcpt article p{
+	position: relative;
+	top: -40px;
+    left: 34px;
+}
+.right article{
+	padding: 10px;
+	background:#fff;
+	float: left;
+	width: 22%;
+	height: 314px;
+	border-radius: 8px;
+	margin: 2px;
+	margin-top: -335px;
+
+}
+.right article span{
+	color: red;
+}
+.right article a{
+	color: #848484;
+	text-decoration: none;
+}
+.main-footer{
+	margin: 0 auto;
+}
+#brdr{
+    position: relative;
+    top: -110px;
+    margin-left: 85px;
+}
+.main-footer ul li{
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 20px;
+	background: url('nav-border.jpg') no-repeat top right;
+	
+}
+.main-footer ul li a{
+	color: #848484;
+	text-decoration: none;
+	padding-right: 19px;
+}
+.main-footer ul li:last-child{
+	background: none;
+}
+.main-footer span{
+	color: #848484;
+	display: inline-block;
+	float: right;
+	margin: -19px;
+}
+.main-footer span a{
+	color: #848484;
+	text-decoration: none;
+}
+
+.other a{
+	margin-left: 10px;
+} 
+.other{
+	clear: left;
+}
+.other section article{
+	background: #fff;
+	width: 30%;
+	height: 157px;
+	float: left;
+	padding: 10px;
+	border-radius: 8px;
+	margin: 5px;
+	position: relative;
+	top:200px;
+}
+.other h3{
+	font-family: lobster;
+	color: #848484;
+	font-size: 30px;
+	text-align: right;
+	display: inline-block;
+}
+.other p{
+	color: #848484;
+	text-align: right;
+}
+.ovr span{
+	font-family: lobster;
+	font-size: 24px;
+	position: relative;
+    top: -247px;
+    left: 174px;
+    color: red;
+}
+.lart{
+	display: inline-block;
+}
+@media (max-width: 980px){
+	body{
+		width: 100%;
+	}
